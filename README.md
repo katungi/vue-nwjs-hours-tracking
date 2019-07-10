@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hour Tracking App
 
 This app is to help you track your hours and generate invoices for clients as a freelancer or consultant.
@@ -113,12 +112,13 @@ NW.js + Vue-CLI 3 example
 
 ![A screenshot of the default app running on Windows](screenshot.png)
 
-* Vue
+* NW.js
+* Vue-CLI 3
+* Vue 2
 * Vue-DevTools
 * Babel
 * ESLint
 * Jest
-* Nightwatch (not working)
 
 
 ## Running Locally for development
@@ -152,4 +152,9 @@ They take a long time. If you do `npm run build` expect it to take 10-30 minutes
 ### Customize configuration
 
 See [Vue-CLI documentation](https://cli.vuejs.org/config).
->>>>>>> 620b4f3... Mostly set up
+
+=======
+Want Vue-Router? Vuex? Use the Vue-CLI to add them:
+
+* [Vue-CLI documentation](https://cli.vuejs.org/config).
+
