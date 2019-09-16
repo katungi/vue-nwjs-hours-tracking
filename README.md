@@ -69,12 +69,12 @@ This app is to help you track your hours and generate invoices for clients as a 
 
 ## Mockups
 
-<img src="Hours Log.png">
-<img src="Projects Page.png">
-<img src="Project Page.png">
-<img src="Exports Page.png">
-<img src="Drawer Menu.png">
-<img src="Settings.png">
+<img src="images/Hours Log.png">
+<img src="images/Projects Page.png">
+<img src="images/Project Page.png">
+<img src="images/Exports Page.png">
+<img src="images/Drawer Menu.png">
+<img src="images/Settings.png">
 
 ## Design
 
@@ -105,12 +105,12 @@ $peach: #F95738
 * Exports
 * Billing Settings
 * Notifications
-=======
+
 # nw-vue-cli-example
 
 NW.js + Vue-CLI 3 example
 
-![A screenshot of the default app running on Windows](screenshot.png)
+![A screenshot of the default app running on Windows](images/screenshot.png)
 
 * NW.js
 * Vue-CLI 3
@@ -120,14 +120,12 @@ NW.js + Vue-CLI 3 example
 * ESLint
 * Jest
 
-
 ## Running Locally for development
 
 1. `npm install`
 1. `npm start`
 1. An empty window will pop up while Webpack warm ups
 1. Once Webpack is running, refresh the window and you're golden
-
 
 ## Building for distribution
 
@@ -136,11 +134,9 @@ NW.js + Vue-CLI 3 example
 1. `npm run build:nw` will build just your NW.js app (`./dist`)
 1. `npm run build` is your all-in-one command. It will clean out the old dist folders and build your Vue and NW.js app
 
-
 # **IMPORTANT NOTE ABOUT BUILDS!!!**
 
 They take a long time. If you do `npm run build` expect it to take 10-30 minutes (depending on amount of dependencies in the dist and your CPU/internet). This can be adjusted by changing the build params in the `package.json`. The more platforms and build types, the longer it takes.
-
 
 ## Automated quality enforcment
 
@@ -148,22 +144,17 @@ They take a long time. If you do `npm run build` expect it to take 10-30 minutes
 1. **Unit tests:** `npm run test:unit` - [Jest](https://jestjs.io).
 1. **End-to-end:** `npm run test:e2e` - Accepting PR to make tests run in NW.js. - [Nightwatch](https://nightwatchjs.org).
 
-
 ### Customize configuration
 
 See [Vue-CLI documentation](https://cli.vuejs.org/config).
 
-=======
 Want Vue-Router? Vuex? Use the Vue-CLI to add them:
 
 * [Vue-CLI documentation](https://cli.vuejs.org/config).
-
-<<<<<<< HEAD
-=======
-* * *
 
 ## Alternatives
 
 * [nwjs-vue](https://github.com/elegantweb/nwjs-vue) - Uses Vue-CLI 2
 * [vue-desktop-basic](https://github.com/TheJaredWilcurt/vue-desktop-basic) - Does not use a build system at all, all `.vue` files run directly in the browser context
->>>>>>> d7e0e8b... Update README.md
+
+* * *
