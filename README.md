@@ -110,14 +110,14 @@ $peach: #F95738
 
 [![Build Status](https://travis-ci.org/nwutils/nw-vue-cli-example.svg?branch=master)](https://travis-ci.org/nwutils/nw-vue-cli-example)
 
-NW.js + Vue-CLI 3 example
+NW.js + Vue-CLI 4 example
 
 ![A screenshot of the default app running on Windows](images/screenshot.png)
 
 * NW.js
-* Vue-CLI 3
+* Vue-CLI 4
 * Vue 2
-* Vue-DevTools
+* Vue-DevTools (latest)
 * Babel
 * ESLint
 * Jest (100% test coverage)
