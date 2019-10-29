@@ -108,6 +108,8 @@ $peach: #F95738
 
 # nw-vue-cli-example
 
+[![Build Status](https://travis-ci.org/nwutils/nw-vue-cli-example.svg?branch=master)](https://travis-ci.org/nwutils/nw-vue-cli-example)
+
 NW.js + Vue-CLI 3 example
 
 ![A screenshot of the default app running on Windows](images/screenshot.png)
