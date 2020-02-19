@@ -114,9 +114,11 @@ NW.js + Vue-CLI 4 example
 
 ![A screenshot of the default app running on Windows](images/screenshot.png)
 
-* NW.js
-* Vue-CLI 4
-* Vue 2.6
+* NW.js 0.44.2
+  * Chrome 80
+  * Node 13.8.0
+* Vue-CLI 4.2.2
+* Vue 2.6.11
 * Vue-DevTools (latest)
 * Babel
 * ESLint
@@ -191,6 +193,7 @@ This is not for those *using* this repo, but for those *maintaining* it.
    * `tests/unit/setup.js`
    * `tests/unit/components/__snapshots__/HelloWorld.test.js.snap`
    * `.browserslistrc`
+1. Update the version numbers at the top of the README
 1. Bump the version number, and all the npm scripts that reference the version number
 1. Run `npm run regression` after updating dependencies or other major changes to verify builds still work correctly
 >>>>>>> 9aa0b10... Markdown formatting
