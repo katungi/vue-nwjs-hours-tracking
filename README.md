@@ -6,6 +6,8 @@ This app is to help you track your hours and generate invoices for clients as a 
 
 1. [Requirements](#requirements)
 1. [Tech Stack](#tech-stack)
+1. [Schema](#schema)
+1. [Mockups](#mockups)
 
 ## Requirements
 
@@ -61,3 +63,7 @@ This app is to help you track your hours and generate invoices for clients as a 
 * createdAt: timestamp
 * updatedAt: timestamp
 * project: FK
+
+## Mockups
+
+<img src="dashboard.png">
