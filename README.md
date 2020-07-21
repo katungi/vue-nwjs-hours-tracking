@@ -22,7 +22,7 @@ This app is to help you track your hours and generate invoices for clients as a 
 
 * Vue.js
 * NW.js (desktop application framework for Node.js)
-* Database?
+* MongoDB
 
 ## Schema
 
