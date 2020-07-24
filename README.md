@@ -9,6 +9,7 @@ This app is to help you track your hours and generate invoices for clients as a 
 1. [Schema](#schema)
 1. [Mockups](#mockups)
 1. [Design](#design)
+1. [Roadmap](#roadmap)
 
 ## Requirements
 
