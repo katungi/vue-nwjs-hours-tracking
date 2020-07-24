@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-button v-b-toggle.sidebar-1></b-button>
+        <b-button v-b-toggle.sidebar-1>Main Menu</b-button>
         <b-navbar-brand href="#">Hour Logger</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse" />
@@ -18,14 +18,7 @@
             <b-nav-form>
               <b-form-input size="sm" class="mr-sm-2" placeholder="Search" />
               <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-            </b-nav-form>
-
-            <b-nav-item-dropdown text="Lang" right>
-              <b-dropdown-item href="#">EN</b-dropdown-item>
-              <b-dropdown-item href="#">ES</b-dropdown-item>
-              <b-dropdown-item href="#">RU</b-dropdown-item>
-              <b-dropdown-item href="#">FA</b-dropdown-item>
-            </b-nav-item-dropdown>
+            </b-nav-form>  
 
             <b-nav-item-dropdown right>
               <!-- Using 'button-content' slot -->
@@ -41,10 +34,10 @@
       <b-sidebar id="sidebar-1" title="Sidebar" shadow>
         <div class="px-3 py-2">
           <b-list-group>
-            <b-list-group-item href="/">
+            <b-list-group-item href="/#/">
               Hours Log
             </b-list-group-item>
-            <b-list-group-item href="/projects">
+            <b-list-group-item href="/#/projects">
               Projects
             </b-list-group-item>
           </b-list-group>
