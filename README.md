@@ -79,9 +79,27 @@ This app is to help you track your hours and generate invoices for clients as a 
 ### Colors
 
 $dark-blue: #0D3B66
+
 $off-white: #FAF0CA
+
 $yellow: #F4D35E
+
 $orange: #EE964B
+
 $peach: #F95738
 
+## Roadmap
 
+### MVP
+
+* Hours log table
+* Add new hour entries
+* Create new projects (to associate hours with)
+* Settings
+
+### Version 1
+
+* Task tracking under projects
+* Exports
+* Billing Settings
+* Notifications
