@@ -8,6 +8,7 @@ This app is to help you track your hours and generate invoices for clients as a 
 1. [Tech Stack](#tech-stack)
 1. [Schema](#schema)
 1. [Mockups](#mockups)
+1. [Design](#design)
 
 ## Requirements
 
@@ -67,3 +68,15 @@ This app is to help you track your hours and generate invoices for clients as a 
 ## Mockups
 
 <img src="dashboard.png">
+
+## Design
+
+### Colors
+
+$dark-blue: #0D3B66
+$off-white: #FAF0CA
+$yellow: #F4D35E
+$orange: #EE964B
+$peach: #F95738
+
+
