@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <b-navbar toggleable="lg" type="dark" variant="info">
-        <b-button v-b-toggle.sidebar-1>Toggle Sidebar</b-button>
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+        <b-button v-b-toggle.sidebar-1></b-button>
+        <b-navbar-brand href="#">Hour Logger</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse" />
 
@@ -40,11 +40,23 @@
       </b-navbar>
       <b-sidebar id="sidebar-1" title="Sidebar" shadow>
         <div class="px-3 py-2">
-          <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-            in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-          </p>
-          <b-img src="https://picsum.photos/500/500/?image=54" fluid thumbnail />
+          <b-list-group>
+            <b-list-group-item href="/">
+              Hours Log
+            </b-list-group-item>
+            <b-list-group-item href="/projects">
+              Projects
+            </b-list-group-item>
+          </b-list-group>
+          <div class="dropdown-divider"></div>
+          <b-list-group>
+            <b-list-group-item href="/">
+              Exports
+            </b-list-group-item>
+            <b-list-group-item href="/">
+              Settings
+            </b-list-group-item>
+          </b-list-group>
         </div>
       </b-sidebar>
       <!-- <router-link to="/">Home</router-link> |
