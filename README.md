@@ -69,12 +69,12 @@ This app is to help you track your hours and generate invoices for clients as a 
 
 ## Mockups
 
-<img src="images/Hours Log.png">
-<img src="images/Projects Page.png">
-<img src="images/Project Page.png">
-<img src="images/Exports Page.png">
-<img src="images/Drawer Menu.png">
-<img src="images/Settings.png">
+<img src="mockups/Hours Log.png">
+<img src="mockups/Projects Page.png">
+<img src="mockups/Project Page.png">
+<img src="mockups/Exports Page.png">
+<img src="mockups/Drawer Menu.png">
+<img src="mockups/Settings.png">
 
 ## Design
 
@@ -112,7 +112,7 @@ $peach: #F95738
 
 NW.js + Vue-CLI 4 example
 
-![A screenshot of the default app running on Windows](images/screenshot.png)
+![A screenshot of the default app running on Windows](mockups/screenshot.png)
 
 * NW.js 0.47.0
   * Chrome 84
