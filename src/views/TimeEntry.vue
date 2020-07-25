@@ -31,7 +31,8 @@ export default {
   data () {
     return {
       formData: {
-        startDate
+        startDate: {},
+        endDate: {}
       }
     };
   },
