@@ -9,7 +9,7 @@
           <b-col>
             <b-btn variant="primary" @click="$router.push({name: 'TimeEntry'})">
               + Add Entry
-              </b-btn>
+            </b-btn>
           </b-col>
         </b-row>
         <b-row>
@@ -21,8 +21,6 @@
     </b-row>
   </b-container>
 </template>
-<<<<<<< HEAD
-=======
 
 <script>
 export default {
@@ -44,4 +42,3 @@ export default {
   }
 };
 </script>
->>>>>>> e3a5f9c... added a table to hours log

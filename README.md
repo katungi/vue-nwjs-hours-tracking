@@ -180,9 +180,6 @@ This will download the source code for the latest version of Vue-DevTools and do
 * [vue-desktop-basic](https://github.com/TheJaredWilcurt/vue-desktop-basic) - Does not use a build system at all, all `.vue` files run directly in the browser context
 
 * * *
-<<<<<<< HEAD
-=======
-
 
 ## Maintainence of this repo
 
@@ -196,4 +193,3 @@ This is not for those *using* this repo, but for those *maintaining* it.
 1. Update the version numbers at the top of the README
 1. Bump the version number, and all the npm scripts that reference the version number
 1. Run `npm run regression` after updating dependencies or other major changes to verify builds still work correctly
->>>>>>> 9aa0b10... Markdown formatting
