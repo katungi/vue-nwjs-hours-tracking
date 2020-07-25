@@ -10,12 +10,11 @@
         <b-row>
           <b-col>
             <b-form @submit="onSubmit" @reset="onReset">
-              <b-form-group id="input-group-2" label="Your Name:" labelFor="input-2">
-                <b-form-input  
-                  id="input-2"
-                  required
-                  placeholder="Enter name"
-                />
+              <b-form-group id="input-group-2" label="Start Date:" labelFor="input-2">
+                <b-form-timepicker v-model="formData.start" id=" input-2" />
+              </b-form-group>
+              <b-form-group id="input-group-2" label="End Date:" labelFor="input-2">
+                <b-form-timepicker v-model="formData.end" id=" input-3" />
               </b-form-group>
               <b-button type="submit" variant="primary">Submit</b-button>
               <b-button type="reset" variant="danger">Reset</b-button>
