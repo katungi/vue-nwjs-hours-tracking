@@ -12,7 +12,7 @@
         </b-row>
         <b-row>
           <b-col>
-            <v-select  :options="[{label: 'Canada', code:'ca'}]" />
+            <v-select :options="[{label: 'Canada', code:'ca'}]" />
           </b-col>
         </b-row> 
       </b-col>
