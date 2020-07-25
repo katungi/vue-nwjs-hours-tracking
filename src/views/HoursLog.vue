@@ -7,7 +7,9 @@
             <h1>Hours Log</h1>
           </b-col>
           <b-col>
-            <b-btn variant="primary">+ Add Entry</b-btn>
+            <b-btn variant="primary" @click="$router.push({name: 'TimeEntry'})">
+              + Add Entry
+              </b-btn>
           </b-col>
         </b-row>
         <b-row>
